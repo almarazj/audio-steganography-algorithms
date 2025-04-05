@@ -1,6 +1,6 @@
 # audio-steganography-algorithms
 
-> A comprehensive open source library of audio steganography and watermarking algorithms written in OCTAVE/Matlab.
+> Forked from [/ktekeli/audio-steganography-algorithms](https://github.com/ktekeli/audio-steganography-algorithms). This repo is intended to be a migration from MATLAB to Python.
 
 ## About
 
@@ -14,37 +14,42 @@ For any questions please [create an issue](https://help.github.com/articles/crea
 
 ## Algorithms
 
-#### 1. Spread Spectrum
+### 1. Spread Spectrum
+
 - [x] Direct Sequence Spread Spectrum (DSSS) (open source)
 - [x] Improved Spread Spectrum (ISS) (p-code)
 - [ ] Spread Spectrum using FFT (planned)
 - [ ] Spread Spectrum using DCT (planned)
 - [ ] Spread Spectrum using DWT (planned)
 
-#### 2. Echo Hiding
+### 2. Echo Hiding
+
 - [x] Echo Hiding - Single Echo Kernel (open source)
 - [x] Echo Hiding - Negative and Positive Echo Kernels (p-code)
 - [x] Echo Hiding - Backward and Forward Echo Kernels (p-code)
 - [x] Echo Hiding - Mirrored Echo Kernels (p-code)
 - [x] Echo Hiding - Time Spread Echo Kernel (p-code)
 
-#### 3. Least Significant Bit Coding
+### 3. Least Significant Bit Coding
+
 - [x] LSB Coding (open source)
 - [ ] LSB Coding in DWT Domain (planned)
 
-#### 4. Phase Coding
+### 4. Phase Coding
+
 - [x] Phase Coding (open source)
 
-#### 5. Parity Coding
+### 5. Parity Coding
+
 - [ ] Parity Coding (planned)
 
-#### 6. Quantization Index Modulation
+### 6. Quantization Index Modulation
+
 - [ ] Quantization Index Modulation (planned)
 
+## Usage & More
 
- ## Usage & More
-
- - All algorithms were built as functions so they can be called from outside. Parameters are explained briefly in the description of each function.
+- All algorithms were built as functions so they can be called from outside. Parameters are explained briefly in the description of each function.
 
 - Example scripts "data_embedding.m" and "data_extracting.m" were added in each method for a quick trial.
 
@@ -73,7 +78,9 @@ Contributions are always welcome! Please read the contribution guidelines first.
 Thank you for your suggestions!
 
 ## Author
+
 - Kadir Tekeli [[linkedin]](https://www.linkedin.com/in/ktekeli/) [[researchgate]](https://www.researchgate.net/profile/Kadir_Tekeli)
 
 ## License
+
 [MIT](https://github.com/ktekeli/audio-steganography-algorithms/blob/master/LICENCE) License (2016-2017)
